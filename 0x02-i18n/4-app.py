@@ -6,11 +6,11 @@ from flask_babel import Babel, gettext
 
 app = Flask(__name__)
 babel = Babel(app)
-""" instantiate the Babel object """
+"""This is an instantiate the Babel object """
 
 
 class Config(object):
-    """ config class """
+    """ This is a config class """
     LANGUAGES = ['en', 'fr']
     BABEL_DEFAULT_LOCALE = 'en'
     BABEL_DEFAULT_TIMEZONE = 'UTC'
